@@ -20,7 +20,7 @@ function setup() {
     primeArr[obj] = new PrimePt(primes[obj])
   }
 
-  print('Keyboard controls: press D/A to increase/decrease quantity of primes displayed.  Press W/X to increase decrease proportion of randomly illuminated primes.  Press S to save PNG.  Press L to toggle the draw loop.')
+  print('Keyboard controls: \npress D/A to increase/decrease quantity of primes displayed.  \nPress W/X to increase decrease proportion of randomly illuminated primes.  \nPress S to save PNG.  \nPress L to toggle the draw loop.')
   print(`Currently displaying ${iterations} primes`)
   print(`${lightson}% of lights are currently on.`)
 }
